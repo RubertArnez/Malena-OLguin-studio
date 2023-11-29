@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Malena Olguin Studio</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="shortcut icon" href="/assets/imagenes/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="cont-header">
+            <div class="boxLogo ">
+                <picture>
+                    <img class="logo-img" src="/assets/imagenes/logo.png" width="120" height="250" />
+                </picture>
+                <p class="titulo">Malena Olguin <br> Studio</p>
+            </div>
+        
+            <nav>
+                <a href="/index.html" target="_blank">Inicio</a>
+                <a href="/pages/about-us.html" target="_blank">About us</a>
+                <a href="/pages/Registrarse.html" target="_blank">Registrarse</a>
+                <a href="#">Cursos</a>
+                <a href="#">Productos</a>
+                <a href="/pages/contacto.html">contacto</a>
+            </nav>
+            
+            <div class="usuario">
+                <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"><a href="#"></a> </i>
+                <i class="fa-solid fa-user" style="color: #ffffff;"><a href="/pages/Registrarse.html"></a>Usuario</i>
+            </div>
+
+        </div>
+    </header>
+
+    <section class="contenedor-simple">
+        <div class="registro">
+            <h4>Formulario de Registro</h4>
+           
+            <form action="">
+                <div>
+                    <label for="inputName"></label>
+                    <input class="controls" title="Ingrese Nombre completo" type="text" minlength="3" maxlength="30"  name="nombre"
+                        id="inputName" placeholder="Ingrese su nombre">
+                </div>
+                <div>
+                    <label for="inputsurName"></label>
+                    <input class="controls" title="Ingrese su Apellido" type="text" minlength="3" maxlength="30" name="apellido"
+                        id="inputsurName" placeholder="Ingrese su Apellido">
+                </div>
+                <div>
+                    <label for="inputEmail"></label>
+                    <input class="controls" title="Ingrese su mejor correo electronico" type="email" minlength="3" maxlength="30" name="correo"
+                        id="inputEmail" placeholder="johndoe@gmail.com">
+                </div>
+                <div>
+                    <label for="inputPassword"></label>
+                    <input class="controls" type="password" name="contraseña" id="inputPassword" minlength="3" maxlength="20"placeholder="Ingrese su contraseña">
+                </div>
+                <div>
+                    <label for="inputPasswordrepit"></label>
+                    <input class="controls" type="password" minlength="3" maxlength="20" name="contraseña" id="inputPasswordRepit" placeholder="Repita su contraseña">
+                </div>
+                
+
+                
+                <p>Estoy de acuerdo con <a href="#">Terminos y condiciones</a></p>
+               
+                <button class="botons" type="submit" >Registrarse</button>
+            </form>
+            <p><a href="#">¿Ya tengo cuenta?</a></p>
+        </div>
+    </section>
+
+    <footer class="footer-container">
+        <section class="footer-box">
+            <div class="social">
+                <ul class="social_list">
+                    <li>Siguenos en nuestras redes</li>
+                    <li><i class="fa-brands fa-facebook fa-xl" style="color:  #2f7ff7;"></i> Facebook</li>
+                    <li><i class="fa-brands fa-instagram fa-xl" style="color: #fb4ce9;"></i> Instagram</li>
+                    <li><i class="fa-brands fa-twitter fa-xl" style="color: #61c5f3;"></i> twitter</li>
+                </ul>
+               
+            </div>
+            <div class="linea"></div>
+            <div class="social">
+                <div class="footer-centro">
+                    <picture>
+                        <img class="logo-img" src="/assets/imagenes/logo.png" width="120" height="250" />
+                    </picture>
+                </div>
+            </div>
+            <div class="linea"></div>
+            <div class="social">
+                <ul class="social_list">
+                    <li><i class="fa-solid fa-envelope" style="color: #ffffff;"></i> Correo</li>
+                    <li><i class="fa-solid fa-phone" style="color: #ffffff;"></i> Teléfono</li>
+                    <li><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i> Dirección</li>
+                </ul>
+            </div>
+
+        </section>
+    </footer>
+</body>
+
+</html>
